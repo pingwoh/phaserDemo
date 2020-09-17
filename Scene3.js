@@ -12,6 +12,7 @@ class Scene3 extends Phaser.Scene{
 
   create()
   {
+      gameOver = false;
       this.add.image(400, 300, 'sky'); //load bg sky
       this.add.image(0, 0, 'sun').setOrigin(0,0); //load at center instead of middle
       this.add.image(400,300, 'logo').setScale(0.3);
